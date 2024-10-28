@@ -22,13 +22,6 @@ body {
   font-weight: 400;
 }
 
-.back-link {
-  width: 80px;
-
-  margin-bottom: 16px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
   .main-title {
     margin-bottom: 20px;
   }
@@ -100,6 +93,7 @@ flex-direction: row;
 gap: 24px;
 width: 346px;
 height: 72px;
+margin: 0 auto;
 margin-top: 24px;
 }
 
@@ -111,12 +105,12 @@ flex-direction: column;
 gap: 0px;
 width: 55px;
 height: 72px;
-margin-right: 22px;
+margin-right: 20px;
 }
 
 .value {
  
-font-size: 40px;
+font-size: 44px;
 line-height: 1.2;
 letter-spacing: 0.04em;
 color: #2e2f42;
@@ -137,6 +131,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .form {
   display: flex;
+  margin: 0 auto;
   flex-direction: column;
   gap: 15px;
   padding: 20px;
